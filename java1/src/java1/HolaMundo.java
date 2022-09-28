@@ -119,12 +119,26 @@ public class HolaMundo {
 		System.out.println("D ahora es: " + D);
 		
 	}
+	
+	private static void ejemplosComparaciones() {
+		int a = 1;
+		int b = 2;
+		String cad1 = "hola";
+		String cad2 = "adiós";
+		String cad3 = "Hola";
+		System.out.println(a==b);
+		System.out.println(cad1.equals(cad2));//comparación exacta de cadenas
+		System.out.println(cad1.equalsIgnoreCase(cad3));//comparación ignorando case sensitive
+		
+
+	}
 	public static void main(String[] args) {
 		//ejercicio1();
 		//ejercicio2();
 		//ejercicio3();
 		//ejercicio4();
-		ejercicio6();
+		//ejercicio6();
+		ejemplosComparaciones();
 		//banco();
 		
 	}
