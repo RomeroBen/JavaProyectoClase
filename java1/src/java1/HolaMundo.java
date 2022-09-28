@@ -1,7 +1,7 @@
 package java1;
 
 import java.util.Scanner;
-
+//cambio menor
 public class HolaMundo {
 	
 	public static void ejercicio1() {
