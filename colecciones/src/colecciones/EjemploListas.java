@@ -17,12 +17,16 @@ public class EjemploListas {
 		
 		// recorre una lista
 		nombres.forEach(e->System.out.println(e));
+//		nombres.replaceAll(e->e.substring(0, 1).toLowerCase()+e.substring(1));
+//		nombres.forEach(e->System.out.println(e));
+		nombres.forEach(e->System.out.println(e));
+		
 		
 			
 	}
 	public static void main(String[] args) {
+		
 		ejemplo1();
-
 	}
 
 }
